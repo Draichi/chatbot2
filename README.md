@@ -1,7 +1,5 @@
 # Ronaldo Chatbot
 
-> yeah dude
-
 ### Getting data
 U will need to download some data, in my case i downloaded all Reddit comments of 05/2015 `RC_2015-05.bz2` from [here](http://files.pushshift.io/reddit/comments/).
 
