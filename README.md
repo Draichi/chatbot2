@@ -14,6 +14,7 @@ You'll need to change the path to you downloaded file on `line 92` of `chatbot_d
 python chatbot_database.py
 ```
 ![creating database](/screenshots/create_database.png "Creating database")
+
 100000 paired rows is enough
 
 * Run `create_training_data.py` to create Q&A files
@@ -31,8 +32,13 @@ Clone this [repository](https://github.com/daniel-kukiela/nmt-chatbot) and follo
 
 Run:
 in setup/
-````
-python prepare_data.py
-cd ..
-python train.py
 ```
+python prepare_data.py
+
+cd ..
+
+python train.py
+
+```
+
+You might want to use some cloud computing service like [paperspace](https://www.paperspace.com/)
