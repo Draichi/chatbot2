@@ -88,6 +88,7 @@ if __name__ == "__main__":
     row_counter = 0
     paired_rows = 0
 
+    # this path u will need to change to your unziped reddit comments file
     with open("C:/Users/Lucas/Downloads/{}/RC_{}".format(timeframe.split('-')[0], timeframe), buffering=1000) as f:
         for row in f:
             row_counter += 1
